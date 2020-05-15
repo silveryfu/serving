@@ -69,7 +69,7 @@ function get_python_cmd() {
 
 (( $# < 1 )) && usage
 
-IMAGE="tensorflow/serving:r1.14.0"
+IMAGE="tensorflow/serving:1.14.0"
 RUN_OPTS=()
 while [[ $# > 1 ]]; do
   case "$1" in
